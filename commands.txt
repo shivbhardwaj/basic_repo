@@ -1,0 +1,45 @@
+Terminal Commands!
+
+—————— Terminal Step ——————
+
+cd Desktop
+mkdir test
+cd test
+touch index.html
+touch style.css
+touch commands.txt
+cp index.html index_2.html
+cd .. 
+mkdir destination
+cd test
+mv index_2.html ../index_2.html
+cd ..
+mv index_2.html destination
+cd test
+rm style.css
+ls -a
+cd ..
+rm -rf destination
+ls
+ 
+———————— Research ————————
+q - exit
+clear - clears the current terminal screen
+tab - autocomplete folder/directory/file names
+up arrow - call back previously entered commands
+echo - display text on screen
+cal - display a calendar
+cat - concatenate and print contents of file
+date - display or change date and time
+say “text” - dictates the text in speech marks
+grep - search file(s) for lines that match given input
+id - print user and group names/IDs
+nano - text editor
+ping - test network connection
+times - print shell and shell process times
+type - describe a command
+vi - text editor
+wc - print byte, word and line counts
+whoami - print current user id and name
+write - write message to another user
+!! - re-run last command
